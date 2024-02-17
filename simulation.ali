@@ -1,0 +1,124 @@
+V "GNAT Lib v2018"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U simulation%b		simulation.adb		8c51e2c1 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z bag_package%s		bag_package.adb		bag_package.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W map_package%s		map_package.adb		map_package.ali
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+W warrior_package%s	warrior_package.adb	warrior_package.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051736 bb51c45a ada.numerics%s
+D a-nudira.ads		20180524051736 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180524051736 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D bag_package.ads	20181018092838 e1678894 bag_package%s
+D bag_package.adb	20181010162914 90ea624d bag_package%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D map_package.ads	20181102081834 a782cb7a map_package%s
+D map_package.adb	20181102082418 9f0d077d map_package%b
+D simulation.adb	20181102090022 8a4727fd simulation%b
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imenne.ads		20180524051736 614c06c0 system.img_enum_new%s
+D s-imguns.ads		20180524051736 9ff43cf7 system.img_uns%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-rannum.ads		20180524051736 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180524051738 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180524051738 01a57b33 system.random_seed%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-valint.ads		20180524051736 48a52a3f system.val_int%s
+D s-valuns.ads		20180524051738 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D warrior_package.ads	20181101091902 2989bd1c warrior_package%s
+D warrior_package.adb	20181101091630 f144a2a0 warrior_package%b
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 26r17 30r17 42r9 43r9 54r25 57r25 61r40
+X 6 a-nudira.adb
+53V16 Random[26|83]{17|5E6} 27|392b13[16|5[17|37]]
+X 9 a-textio.ads
+49K13*Text_IO 471e16 17|1w10 26r21 30r21 42r13 43r13 54r29 57r29 61r44
+249U14*Get_Line 17|43s21
+263U14*Put_Line 17|26s29 30s29 42s21 54s37 57s37 61s52
+X 13 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 15 map_package.ads
+7k17*Map_Package 26e24 17|2w6 37r26
+9R22 map 17|45r24[37]
+12U27 Init 17|48s27[37]
+13U27 Put 17|51s35[37]
+14U27 Move 17|50s35[37]
+15V26 Is_Empty{boolean} 17|49s65[37] 56s30[37]
+X 17 simulation.adb
+4U11*simulation 4b11 62l5 62t15
+5E6 Field 5e56 6r21 7r21 23r38 37r38
+5n16 Empty{5E6} 34r25 37r73
+5n22 Stone{5E6} 6r33 12r20 25r19
+5n28 Wood{5E6} 15r20 25r51
+5n33 Sword{5E6} 6r40 18r20 25r35
+5n39 Water{5E6} 7r33 11r18 29r19
+5n45 Trap{5E6} 14r18 29r35
+5n50 Enemy{5E6} 7r40 17r18 29r50
+6E9 Resource{5E6} 8r38 9r3 22r40
+7E9 Obstacle{5E6} 8r21 22r49
+8V10 Tool{6E9} 8b10 8>15 21l5 21t9 22r58
+8e15 param{7E9} 11r12 14r12 17r12
+9e1 r{6E9} 12m17 15m17 18m17 20r16
+22K9 Kampfer[39|8] 23r58 27r17 31r17 33r12 37r44 38r7 47r17 49r23 53r24
+23U11 field_action 23b11 23=24 23=44 36t4 37r60
+23e24 param1{5E6} 25r12 25r28 25r44 27m40 29r12 29r28 29r43 31r38 34m17
+23r44 param2{39|10R22[22]} 27m33 31m31 33r29
+37K9 Landkarte[15|7] 45r14 48r17 49r55 50r25 51r25 56r20
+38r1 Joska{39|10R22[22]} 47m30 47r30 49r40 50m45 50r45 53r41
+39a1 n{string} 43m30 45r42
+40i1 h{integer} 43m32 45r47
+45r9 Land{15|9R22[37]} 48m32 48r32 49r74 50m40 50r40 51r39 56r39
+X 26 s-rannum.ads
+75V13*Random{13|74M9} 27|221i21
+76V13*Random{13|77M9} 27|221i21
+X 39 warrior_package.ads
+8k17*Warrior_Package 17|3w6 22r24 39|24e28
+10R22 warrior 17|23r66[22] 37r52[22] 38r15[22]
+12U27 Init 17|47s25[22]
+13U27 Fight 17|31s25[22]
+14U27 Collect 17|27s25[22]
+15V26 Is_Alive{boolean} 17|33s20[22] 49s31[22] 53s32[22]
+

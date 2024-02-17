@@ -1,0 +1,106 @@
+V "GNAT Lib v2018"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U map_package%b		map_package.adb		c17722b2 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+U map_package%s		map_package.ads		a782cb7a BN EE NE OO PK GE KM
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051736 bb51c45a ada.numerics%s
+D a-nudira.ads		20180524051736 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180524051736 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D map_package.ads	20181102081834 a782cb7a map_package%s
+D map_package.adb	20181102082418 9f0d077d map_package%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-rannum.ads		20180524051736 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 2r6 5r29 20r33 22r25 24r17 28r29
+X 4 a-numeri.ads
+16K13*Numerics 32e17 14|2r10 5r33 28r33
+X 5 a-nudira.ads
+44k22*Discrete_Random 75e33 14|2w19 5r42 28r42
+50R9 Generator<20|63R9> 14|7r13[5] 30r13[28]
+52V13 Random{13|3E14} 14|12s52[5] 33s22[28]
+55U14 Reset<20|100p14> 14|9s17[5] 32s17[28]
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 20r37 22r29 24r21
+242U14*Put 14|20s45
+263U14*Put_Line 14|22s37 24s29
+X 13 map_package.ads
+3E14 Field 5r52 6r19 21r90 14|5r58 20r49
+4+14 Warrior 5r73 14r66 14|26r58
+5U24 Field_Action 5=37 5=58 14|57s17
+5*37 param1{3E14}
+5*58 param2{4+14}
+6*9 Empty{3E14} 14|67r54
+7k17*Map_Package 3z14 4z14 5z24 6z9 17E30 26l13 26e24 14|3b14 74l5 74t16
+8R22*coord 17c30 20e35 24r42
+9R22*map 9d26 12r46 13r41 14r47 15r42 22c30 25e35 14|4r38 16r33 26r39 59r34
+9i26 n{positive} 22r34 23r56 23r61
+12U27*Init 12=32 14|4b19 15l13 15t17
+12r32 param{9R22} 14|4b24 10r26 11r34 12m33
+13U27*Put 13>31 14|16b19 25l13 25t16
+13r31 param{9R22} 14|16b23 18r26 19r34 20r61
+14U27*Move 14=32 14=51 14|26b19 58l13 58t17
+14r32 param1{9R22} 14|26b24 34r44 34r62 35m57 35r76 37m57 37r75 37r95 39r44
+. 39r62 40m57 40r76 42m57 42r75 42r95 44r44 44r62 45m57 45r76 48m57 48r75
+. 48r93 50r44 50r62 51m57 51r76 53m57 53r75 53r93 57m30 57r30 57r44 57r62
+14*51 param2{4+14} 14|26b43 57m81
+15V26*Is_Empty{boolean} 15>35 14|59b18 73l13 73t21
+15r35 Param{9R22} 14|59b27 64r26 66r34 67r36
+18i33 x{positive} 14|34r60 35m73 37r91 39r60 40m73 42r91 48r91 53r91 57r60
+19i33 y{positive} 14|37r111 42r111 44r60 45m73 48r109 50r60 51m73 53r109
+. 57r78
+21A30 fieldmatrix(3E14)<integer><integer> 23r41
+23a33 Fields{21A30} 14|10r32 11r40 12m39 18r32 19r40 20r67 34r69 35r83 39r69
+. 40r83 44r69 45r83 50r69 51r83 57m37 64r32 66r40 67r42
+24r33 Position{8R22} 14|34r51 35m64 37m64 37r82 37r102 39r51 40m64 42m64
+. 42r82 42r102 44r51 45m64 48m64 48r82 48r100 50r51 51m64 53m64 53r82 53r100
+. 57r51 57r69
+X 14 map_package.adb
+5K17 rand[5|44] 6r13
+7r9 G{5|50R9[5]} 9r23 12r59
+10i21 i{integer} 12r46
+11i29 j{integer} 12r48
+18i21 i{integer} 20r74
+19i29 j{integer} 20r76
+27I17 int{integer} 28r58
+28K17 rand[5|44] 29r13
+30r9 G{5|50R9[28]} 32r23 33r29
+60b9 l{boolean} 64r48 66r56 67m33 72r24
+61i9 i{positive} 63m17 64r23 67r49 70m25 70r28
+61i11 j{positive} 65m25 66r31 67r51 68m33 68r36
+

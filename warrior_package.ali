@@ -1,0 +1,46 @@
+V "GNAT Lib v2018"
+P ZX
+
+RN
+RV SPARK_05
+
+U warrior_package%b	warrior_package.adb	d8cd1fbc NE OO PK GE
+
+U warrior_package%s	warrior_package.ads	c8ee3588 BN EE NE OO PK GE
+W bag_package%s		bag_package.adb		bag_package.ali
+
+D bag_package.ads	20181018092838 e1678894 bag_package%s
+D bag_package.adb	20181010162914 90ea624d bag_package%b
+D system.ads		20180524051738 32a08138 system%s
+D warrior_package.ads	20181101091902 2989bd1c warrior_package%s
+D warrior_package.adb	20181101091630 f144a2a0 warrior_package%b
+X 1 bag_package.ads
+4k17*Bag_Package 12e24 4|1w6 18r46
+5A22 bag(integer) 4|22r43[18]
+6U27 Empty 5|5s39[4|18]
+7U27 Add 5|7s47[4|18] 22s39[4|18]
+8U27 Remove 5|14s47[4|18]
+9V26 Has_Any{boolean} 5|13s42[4|18]
+X 4 warrior_package.ads
+4E14 resource 6r51 14r73 18r58 5|6r34 20r73
+5E14 obstacle 6r34 13r68 5|11r68
+6V23 Tool{4E14} 6>28 5|13s67 14s71
+6*28 param{5E14}
+8k17*Warrior_Package 4z14 5z14 6z23 18E25 24l13 24e28 5|2b22 30l13 30t28
+10R22*warrior 12r46 13r48 14r50 15r42 20c14 23e35 5|3r46 11r48 20r50 25r42
+12U27*Init 12=32 5|3b27 9l21 9t25
+12r32 param{10R22} 5|3b32 5m45 5r45 7m51 7r51
+13U27*Fight 13=33 13>57 5|11b27 18l21 18t26
+13r33 param1{10R22} 5|11b33 13r50 14m54 14r54 16m33
+13*57 param2{5E14} 5|11b57 13r72 14r76
+14U27*Collect 14=35 14=58 5|20b27 23l21 23t28
+14r35 param1{10R22} 5|20b35 22m43 22r43
+14*58 param2{4E14} 5|20b58 22r60
+15V26*Is_Alive{boolean} 15>35 5|25b26 28l21 28t29
+15r35 param{10R22} 5|25b35 27r32
+18K25 inventory_bag[1|4] 19r21 5|5r25 7r33 13r28 14r33 22r25
+21b33 status{boolean} 5|16m40 27r38
+22a33 inventory{1|5A22[18]} 5|5m51 7m57 13r57 14m61 22m50
+X 5 warrior_package.adb
+6*29 i{4|4E14} 7r67
+
